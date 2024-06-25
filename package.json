@@ -1,0 +1,33 @@
+{
+  "name": "logseq-youtube-paste",
+  "version": "0.0.1",
+  "description": "Paste Youtube Link",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "tejonaco",
+  "license": "MIT",
+  "dependencies": {
+    "@logseq/libs": "^0.0.17"
+  },
+  "devDependencies": {
+    "ts-standard": "^12.0.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  },
+  "logseq": {
+    "title": "Paste Youtube Link",
+    "id": "logseq-youtube-paste",
+    "main": "dist/index.html"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [
+      "./node_modules/ts-standard/eslintrc.json"
+    ]
+  }
+}
