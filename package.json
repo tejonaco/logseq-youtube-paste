@@ -20,7 +20,8 @@
   "logseq": {
     "title": "Paste Youtube Link",
     "id": "logseq-youtube-paste",
-    "main": "dist/index.html"
+    "main": "dist/index.html",
+    "icon": "assets/icon.png"
   },
   "eslintConfig": {
     "parserOptions": {
